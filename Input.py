@@ -1,5 +1,5 @@
+"""
 
-""" 
 name1 = input("Enter your name: ")
 age1 = input("Enter your age: ")
 print("Oh I see. You are " + age1 + " years old. Welcome, " + name1 + "! I hope you are doing good.")
@@ -18,13 +18,13 @@ result = cube(float(input("Enter the number you want to cube and it will go to r
 print(result)
 print(cube(float(input("Enter the number you want to cube: "))))
 
-"""
+
 # If statement
 
 i_am_here = True
 i_am_alive = False
 
-"""
+
 if i_am_here and i_am_alive:
     print("You exist. You are here!")
     print("Oh thank God, you are alive!")
@@ -37,7 +37,8 @@ else:
 if i_am_here and i_am_alive:
     print("You exist and you are alive!")
 elif i_am_here and not(i_am_alive):
-    print("You exist but " + str(place = input("Where are you?: ")))
+    print("You exist but ")
+    place = str(input("Where are you?: "))
     print("Oh, okay. You are in " + place + ".")
 else:
     print(input("Where are you?"))
@@ -262,7 +263,7 @@ except ValueError:
 except ZeroDivisionError:
     print("A number is cannot be divided by zero")
 
-"""
+
 
 # Writing a File
 
@@ -276,3 +277,4 @@ while number in range(100):
 python_file = open("this_is_a_python.py", "w")
 python_file.write("print('Hello')")
 
+"""
